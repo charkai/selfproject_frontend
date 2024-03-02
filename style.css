@@ -1,0 +1,16 @@
+body{
+    font-family: mainFont;
+    background-color: #eee2dc;
+    color: #123c69;
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(fonts/Roboto-Black.ttf);
+  }
+  
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+  }
