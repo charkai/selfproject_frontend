@@ -76,9 +76,42 @@ section{
     opacity: 0; 
     transition: all 1s;
     transform: translateX(-100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 .show {
     opacity: 1;
     transform: translateX(0); 
 }
+
+.sideby {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.sideby div {
+    display: flex;
+    height: 200px; 
+    width: 200px;
+    padding: 20px;
+}
+
+.sideby img{ 
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.boxed {
+    border-radius: 20px;
+    background-color: #edc7b7;
+    padding: 10px; 
+    align-items: center;
+    display: flex; 
+    text-align: center;
+    justify-content: center;
+}
+
