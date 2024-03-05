@@ -1,0 +1,84 @@
+body{
+    margin: 0;
+    font-family: mainFont;
+    background-color: #eee2dc;
+    color: #123c69;
+}
+
+section{
+    display: grid; 
+    place-items: center;
+    align-content: center; 
+    min-height: 40vh;
+}
+
+.bigtext{
+    display: grid;
+    margin: 10px; 
+    place-items: center; 
+    align-content: center;
+    font-size: 60px; 
+    height: 150px
+}
+
+.navigationbar{
+    font-family: mainFont;
+    background-color:#c16c89;
+    margin: 0;
+    padding: 20px 20px;
+    background-blend-mode: darken;
+
+}
+.navigationdiv{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.name a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #9b3659;
+}
+
+.navigationdiv ul{
+    list-style: none; 
+}
+
+.navigationdiv li{
+    margin-right: 20px;
+    display: inline-block;
+    
+}
+
+.navigationdiv li a{
+    color: #ac3b61;
+    text-decoration: none;
+}
+
+.navigationdiv li a:hover {
+    color: #b45073;
+}
+
+@font-face {
+    font-family: mainFont;
+    src: url(fonts/Roboto-Black.ttf);
+  }
+  
+@font-face {
+    font-family: myFirstFont;
+    src: url(fonts/Roboto-Bold.ttf);
+    font-weight: bold;
+  }
+
+.hidden{
+    opacity: 0; 
+    transition: all 1s;
+    transform: translateX(-100%);
+}
+
+.show {
+    opacity: 1;
+    transform: translateX(0); 
+}
