@@ -2,6 +2,8 @@
 
 So far in my uni degree, I haven't had the chance to learn much in the way of frontend development. So, I'm coding a website to teach myself frontend dev and HTML, CSS and Javascript!
 
+Originally, I was going to make the website a personal portfolio. However, I decided to instead make it about something that I'm passionate about, ultimate frisbee!
+
 I have used lots of youtube tutorials to try and learn how to code a website from scratch. 
 
 The series on web development by 'LearnCode.academy' on youtube was very helpful. 
